@@ -1,0 +1,26 @@
+CREATE TABLE employee (
+    ID int,
+    Name varchar(255),
+    edu varchar(255),
+    age int
+    );
+	
+	insert into employee (id,name,edu,age) values(1,'Saiful','Java Developer',27);
+		insert into employee (id,name,edu,age) values(2,'Jafrul','Docer Developer',30);
+			insert into employee (id,name,edu,age) values(3,'Foysal','Angular Developer',31);
+				insert into employee (id,name,edu,age) values(4,'Sayed','ERP Developer',32);
+					insert into employee (id,name,edu,age) values(5,'Rashed','JSP Developer',26);
+						insert into employee (id,name,edu,age) values(6,'Enjam','Spring Developer',33);
+						
+						
+	id,product_id,product_name,image,category,description,
+	cash_memo,company,stock_ditails,vendormail,	old_price,
+    new_price,cost_price,quantity,date,	time
+    
+    CREATE TABLE users (
+	user_id serial PRIMARY KEY,
+	username VARCHAR ( 50 ) UNIQUE NOT NULL,
+	password VARCHAR ( 65 ) NOT NULL,
+    role VARCHAR(45) NOT NULL,
+    enabled boolean
+);
